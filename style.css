@@ -1,0 +1,2160 @@
+@import url('https://fonts.cdnfonts.com/css/be-vietnam-pro');
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F1F1F3;
+    display: flex; /* Add flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    flex-direction: column; /* Flex direction if necessary */
+    overflow-y: scroll; /* Allow vertical scrolling */
+    margin: 0; /* Ensure there's no default margin */   
+}
+
+.preloader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #F1F1F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Ensure it stays on top */
+}
+
+.preloader h1{
+ color: #FF9500;
+}
+/* Header */
+.navbar {
+    width: 97%;
+    height: 20vh;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 1;
+}
+
+.top-banner {
+    width: 100%;
+    height: auto;
+    height: 40px;
+    padding: 14px;
+    border-radius: 8px;
+    background: #FF9500;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;  /* Center the content */
+    align-items: center;      /* Center content vertically */
+}
+
+.layout {
+    display: flex;
+    align-items: flex-start;  /* Align items to the top */
+    margin-top: 30px;         /* Space between yellow bar and layout */
+}
+
+.content{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 12px;        /* Responsive font size */
+    font-weight: 400;
+    line-height: 1.5rem;
+    text-align: center;       /* Center text */
+    color: #FFFFFF;
+    gap: 1rem;
+    width: auto;
+    /* border: 1px solid red; */
+    display: flex;
+}
+
+.top-banner h1{
+    align-items: flex-end;
+}
+
+.top-banner img {
+    width: 12.4px;
+    height: 12.8px;
+    left: 3.6px;
+    font-size: 0.6rem;
+    cursor: pointer;
+}
+
+.content a{
+    margin-top: 7px;
+}
+
+.logo-layout {
+    width: 40px;
+    height: 40px;
+    background-color: #FF9500;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px ;
+}
+
+.logo-layout img {
+    width: 100%;
+    height: auto;
+    margin-top: 2px;
+}
+
+.headerPages {
+    /* border: 1px solid red; */
+    width: auto;                          /* Width of the header container */
+    height: 55px;                          /* Height of the header container */
+    padding: 14px 24px;                   /* Padding around the content */
+    border-radius: 8px 0px 0px 0px;       /* Rounded corners */
+    display: flex;                         /* Use flexbox for layout */
+    align-items: center;                   /* Center items vertically */
+}
+
+.headerPages ul {
+    /* border: 1px solid red; */
+    list-style-type: none;  
+    padding: 0;   
+    margin: 0;                             /* Remove margin */
+    display: flex;                         /* Arrange items in a row */
+    gap: 22px; 
+    margin-top: -10px;                                /* Space between list items */
+}
+
+.headerPages li {
+    font-family: 'Be Vietnam Pro';         /* Font family */
+    font-size: 14px;                       /* Font size */
+    font-weight: 400;                      /* Font weight */
+    line-height: 27px;                     /* Line height */
+    text-align: left;                      /* Text alignment */
+}
+
+.headerPages a {
+    text-decoration: none;                 /* Remove underline from links */
+    color: #262626;                     
+    opacity: 1;                           /* Make links visible */
+}
+
+.headerPages a:hover {
+    color: #FF9500;                       /* Change color on hover */
+    transition: color 0.3s;               /* Smooth transition for color change */
+}
+
+.signupLogin {
+    /* border: 1px solid red; */
+    width: auto;
+    height: 55px;
+    gap: 30px; /* This will space the buttons if needed */
+    opacity: 1; /* Make it visible */
+    position: absolute; /* Position it absolutely */
+    right: 64px; /* Align it to the right */
+    top: 80px; /* Adjust this value to move it down */
+    display: flex; /* Enable flexbox layout */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    font-family: Be Vietnam Pro;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+}
+
+.hamburgerDiv{
+    /* border: 1px solid red; */
+    width: 35px;
+    height: 40px;
+    display: none;
+}
+
+.hamburgerDiv img{
+    width: 100%;
+    height: 100%;
+}
+
+.loginButton{
+    width: 40%;
+    height: 40px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid #FF9500;
+    color: #FFF;
+    background-color: #FF9500;
+}
+
+.loginButton {
+    background:rgba(255, 149, 0, 1);
+    background: linear-gradient(0deg, rgba(255, 149, 0, 1) 0%, rgba(255, 149, 0, 1) 100%);
+    width: 90px;
+    height: 40px;
+    line-height: 42px;
+    right: 15px;
+    padding: 0;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+  
+  .loginButton span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: rgba(255, 149, 0, 1);
+    font-family: 'Be Vietnam Pro', sans-serif;
+  }
+  
+  .loginButton:before,
+  .loginButton:after {
+    position: absolute;
+    content: "";
+    background: rgba(255, 149, 0, 1); /* Yellow */
+    transition: all 0.3s ease;
+  }
+  
+  .loginButton:before {
+    right: 0;
+    top: 0;
+    height: 0%;
+    width: 2px;
+  }
+  
+  .loginButton:after {
+    right: 0;
+    top: 0;
+    width: 0%;
+    height: 2px;
+  }
+  
+  .loginButton:hover {
+    background: transparent;
+    box-shadow: none;
+    color: rgba(255, 149, 0, 1);
+  }
+  
+  .loginButton:hover:before {
+    height: 100%;
+  }
+  
+  .loginButton:hover:after {
+    width: 100%;
+  }
+  
+  .loginButton span:before,
+  .loginButton span:after {
+    position: absolute;
+    content: "";
+    background: rgba(255, 149, 0, 1); /* Yellow */
+    transition: all 0.3s ease;
+  }
+  
+  .loginButton span:before {
+    left: 0;
+    bottom: 0;
+    width: 2px;
+    height: 0%;
+  }
+  
+  .loginButton span:after {
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+  }
+  
+  .loginButton:hover span {
+    color: rgba(255, 149, 0, 1); /* Yellow */
+  }
+  
+  .loginButton:hover span:before {
+    height: 100%;
+  }
+  
+  .loginButton:hover span:after {
+    width: 100%;
+  }
+  
+  .signupButton {
+    /* border: 1px solid red; */
+    width: auto;
+    background: transparent;
+    text-decoration: none;
+    border: none;       
+    padding: 10px 20px;  /* Adjust padding if needed */
+    font-size: 16px;     /* Adjust font size */
+    color: #262626;         /* Set desired text color */
+    cursor: pointer;     /* Makes it clickable */
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 14px;
+    top: 10px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+
+}
+
+.signupButton:hover {
+    transition: all 0.3s ease;
+    color: #FF9500;             /* Yellow color on hover */
+}
+
+/* Default style for navigation items */
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 6px 6px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #b8b6b6;              /* Default text color */
+    background-color:#F1F1F3; /* Background color */
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+/* Active page styling */
+ul li.active {
+    /* background-color: #e8e8ed; Yellow background for active page */
+    color: #F1F1F3;               /* White text for active page */
+    font-weight: bold;         /* Optional: Make active page bold */
+}
+
+ul a li.active:hover {
+    background-color: #FF9500; /* Yellow background for active page */
+    color: #F1F1F3;               /* White text for active page */
+    /* font-weight: bold;         Optional: Make active page bold */
+}
+
+.afterHeaders {
+    /* border: 1px solid red; */
+    display: flex;              /* Enables flexbox */
+    flex-direction: column;     /* Ensures content stacks vertically */
+    align-items: center;        /* Centers content horizontally */
+    justify-content: center;    /* Centers content vertically */
+    width: 100%;                 /* Set your desired width */
+    height: auto;               /* Let height adjust to content */
+    padding: 70px;              /* Padding around content */
+    margin: 0 auto;             /* Centers the div horizontally */
+    box-sizing: border-box;     /* Ensures padding is included in width/height */
+    overflow: hidden;           /* Prevents content from spilling out */
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 1.3s ease;
+}
+
+.afterHeaders.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+.creative {
+    /* border: 1px solid red; */
+    display: flex;             /* Required for flexbox alignment */
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    padding: 6px;
+    /* margin-top: -14px; */
+    border-radius: 8px;
+    background: #FCFCFD;
+}
+
+
+.imgShine {
+    /* border: 1px solid red; */
+    width: 70px;
+    height: 50px; /* Keep the final height value */
+    display: flex; /* Add flex to use justify-content and align-items */
+    justify-content: center;
+    align-items: center;
+    right: 217px;
+    top: 10px;
+    position: relative;
+}
+
+.imgShine img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Ensures the image maintains its aspect ratio */
+}
+
+.creativeSquareImg img {
+    width: 75%;  /* Ensures the image scales to fit the container */
+    height: auto; /* Maintains the aspect ratio of the image */
+}
+
+.creativeSquareImg {
+    /* border: 1px solid red; */
+    width: 48px;
+    height: 48px;
+    border-radius: 6px;
+    text-align: center;
+    margin-right: 2px;
+    background-color: #FFF4E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.creativeSquareContent {
+    /* border: 1px solid red; */
+    margin-bottom: 20px; /* Keep only one margin-bottom */
+    margin-left: 6px;
+    margin-top: 23px;
+    display: flex;        /* Ensure flexbox layout for centering */
+    justify-content: center;  /* Center content horizontally */
+    align-items: center;      /* Center content vertically */
+}
+
+.creativeSquareContent h1 {
+    /* border: 1px solid red; */
+    font-size: 20px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    margin: 0;
+    width: auto;
+}
+
+.creativeSquareContent span{
+    /* border: 1px solid red; */
+    color: #FF9500;
+}
+
+.headingCreative {
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    text-align: center;  /* Aligns the text in the center */
+}
+
+.headingCreative p {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 14px;
+    padding: 10px;
+    font-weight: 400;    
+}
+
+.headingCreative h3{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 19px;
+    font-weight: 400;  
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.buttonCreative {
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centers the buttons horizontally */
+    text-align: center;
+    gap: 5px; /* No gap between the buttons */
+}
+
+.explore {
+    width: 120px;
+    height: 47px;
+    /* padding: 18px 24px; */
+    border-radius: 8px; /* Rounded top-left corner */
+    opacity: 1; /* Ensuring the button is visible */
+    background-color: #FF9500; /* White background */
+    border: 1px solid #F1F1F3; /* Light gray border */
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 12px;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.price {
+    width: 93px;
+    height: 43px;
+    margin: 2px 0 17px;
+    border-radius: 8px; /* No border-radius */
+    opacity: 1; /* Ensuring the button is visible */
+    background-color: #FFFFFF; /* White background */
+    border: 1px solid #F1F1F3; /* Light gray border */
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 12px;
+    justify-content: center;
+    text-align: center;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.explore:hover {
+    background-color: #fff;
+    color: #FF9500;
+}
+
+.price:hover{
+    background-color: #fff;
+    color: #FF9500;
+    transition: 0.3s ease;
+}
+
+.partnersBox {
+    display: flex;
+    flex-wrap: nowrap;              /* Ensure items are in a single row */
+    justify-content: flex-start;    /* Align items to the left */
+    overflow-x: hidden !important;               /* Enable horizontal scrolling */
+    padding: 20px;                  /* Padding inside the container */
+    background-color: #FCFCFD;      /* Background color */
+    scrollbar-width: thin;          /* Thin scrollbar for Firefox */
+    scroll-behavior: smooth;        /* Smooth scrolling for browsers */
+    max-width: 100%;                /* Make sure it fits within the viewport */
+    box-sizing: border-box;  
+}
+
+
+/* Custom scrollbar styling for WebKit browsers (Chrome, Safari) */
+.partnersBox::-webkit-scrollbar {
+    height: 6px;
+}
+
+.partnersBox::-webkit-scrollbar-thumb {
+    background-color: #cccccc;
+    border-radius: 10px;
+}
+
+.partners {
+    flex: 0 0 auto; /* Prevent flex items from growing or shrinking */
+    width: 150px; /* Fixed width for each partner */
+    display: flex; /* Center image inside partners div */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.partners img {
+    max-width: 90%;
+    height: auto;
+    filter: grayscale(100%); /* Grayscale by default */
+    transition: filter 0.5s ease, transform 0.3s ease; /* Smooth hover effect */
+}
+
+.partners img:hover {
+    filter: grayscale(0%); /* Show real color on hover */
+}
+
+.partners:first-child img,
+.partners:last-child img {
+    width: 35%; /* Set the font size for the first and last image */
+}
+
+.partners:hover img {
+    filter: grayscale(0%); /* Remove grayscale on hover to show real color */
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+.youtube-video {
+    justify-content: center;
+    align-items: center;
+    width: 92%;
+    height: 100%;
+    padding: 40px;
+    position: relative;
+    opacity: 0; /* Initially hidden */
+    transform: scale(0.8); /* Initially scaled down */
+    transition: opacity 0.6s ease, transform 0.5s ease; /* Smooth transition */
+}
+
+.youtube-video.visible {
+    opacity: 1; /* Fully visible */
+    transform: scale(1); /* Scaled to normal size */
+}
+
+
+.youtube-video img {
+    background-position: center;
+    object-fit: cover;
+    width: 100%; /* Ensure image takes full width of the container */
+    height: 100%; /* Maintain aspect ratio for images */
+    margin-top: 50px;
+}
+
+.benefit{
+    /* border: 1px solid red; */
+    width: 87%;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.benefit h1{
+    font-size: 30px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin: 0;
+    font-weight: 600;
+}
+
+
+.benefit p{
+    font-size: 13px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin: 0;
+    line-height: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+    color: #59595A;
+    width: 55%;
+}
+
+.view{
+    /* border: 1px solid red; */
+    height: 40px; /* Uncomment if height is needed */
+    width: 70px;
+    display: flex;  
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    text-align: center; /* Center text */
+    margin-top: -70px; /* Adjusts the vertical position */
+    float: right; /* Consider removing float if using flexbox */
+    border: 1px solid #F1F1F3;
+    background: #FCFCFD;
+    
+}
+
+.view a{
+    text-decoration: none;
+    color:#262626;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font: 900;
+    font-size: 12px;
+}
+
+.view a:hover{
+    background-color: #fff;
+    color: #FF9500;
+    transition: all 0.3s ease-in-out;
+}
+.benefitFlexBox {
+    /* border: 1px solid red;  */
+    margin-top: 30px;
+    width: 89%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+    gap: 10px;
+}
+
+.flexBox {
+    justify-content: center;
+    width: 24%;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border-radius: 5px;
+    opacity: 0; /* Initially hidden */
+    transform: translateX(50px); /* Initially moved to the right */
+    transition: opacity 0.6s ease, transform 0.8s ease; /* Smooth transition */
+}
+
+.flexBox.visible {
+    opacity: 1; /* Fully visible */
+    transform: translateX(0); /* Slide to original position */
+}
+
+
+
+.benefitContent {
+    /* margin-top: 20px; */
+    text-align: left;
+    width: auto;
+}
+
+.benefitContent p {
+    /* border: 1px solid red; */
+    width: 80%;
+    margin-left: 20px;
+    font-weight: 500;
+    color: #4C4C4D;
+    line-height: 18px;
+    /* margin: 0; */
+}
+
+.benefitContent h2 {
+    /* border: 1px solid red; */
+    width: 80%;
+    margin-left: 20px;
+    color: #333333;
+    font-size: 15px;         /* Font size for larger screens */
+    font-weight: 600;
+}
+
+.roundSpan {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;       /* Centers the text */
+    margin: 20px;        /* Adjusted for better centering */
+}
+
+.iconSpan {
+    height: 50px;
+    width: 50px;
+    border: 1px solid #c2c2c4;
+    border-radius: 8px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;      /* Centers the icon with margin */
+}
+
+.iconSpan img {
+    width: 13px;
+    height: 13px;
+    margin: 0;
+}
+
+.roundSpan span {
+    color: #262626;
+}
+
+.courses{
+    /* border: 1px solid red; */
+    width: 87%;
+    margin-top: 70px;
+    justify-content: center;
+    /* margin-left: -29px; */
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.courses h1{
+    width: 60%;
+    font-size: 30px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 600;
+    margin: 0;
+}
+
+.courses p{
+    font-size: 13px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin: 0;
+    line-height: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+    color: #59595A;
+    width: 55%;
+}
+
+.courses-view{
+    /* border: 1px solid red; */
+    height: 40px; /* Uncomment if height is needed */
+    width: 70px;
+    display: flex;  
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    text-align: center; /* Center text */
+    margin-top: -60px; /* Adjusts the vertical position */
+    float: right; /* Consider removing float if using flexbox */
+    background: #FCFCFD;
+    
+}
+
+
+.courses-view a{
+    text-decoration: none;
+    color:#262626;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font: 900;
+    font-size: 12px;
+}
+
+.courses-view a:hover{
+    background-color: #fff;
+    color: #FF9500;
+    transition: all 0.3s ease-in-out;
+}
+
+.coursesBox {
+    /* border: 1px solid red; */
+    margin-top: 30px;
+    width: 88%;           /* Adjust width as needed */
+    height: auto;         /* Automatically adjust height based on content */
+    display: flex;        /* Enables flexbox */
+    flex-wrap: wrap;      /* Allows child elements to wrap */
+    align-items: flex-end;/* Aligns items to the bottom of the container */
+    overflow: hidden;     /* Prevents content from spilling out of the container */
+    gap: 5px;
+
+}
+
+.coursesFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 32%;
+    height: auto;
+    padding: 20px;
+    background: #FFFFFF;
+    border-radius: 5px;
+
+    /* Animation Properties */
+    opacity: 0; /* Initially hidden */
+    transform: translateY(50px); /* Initially positioned down */
+    transition: opacity 0.6s ease, transform 0.8s ease; /* Smooth transition */
+}
+
+.coursesFlex.visible {
+    opacity: 1; /* Fully visible */
+    transform: translateY(0); /* Slide into original position */
+}
+
+
+.courseImage {
+    width: 100%;
+    margin-top: 10px;
+    height: auto;
+    justify-content: center;
+    border-radius: 5px;
+    align-items: center;
+    transition: transform 0.3s ease; /* Smooth transition for the zoom effect */
+}
+
+.courseImage:hover {
+    transform: scale(1.1); /* Zooms the image to 110% of its original size */
+}
+
+
+.courseImage img {
+    width: 100%;
+    height: auto; /* Keep aspect ratio */
+    transition: transform 0.3s ease; /* Smooth transition for the zoom effect */
+}
+.beginnerweeksDiv{
+    /* border: 1px solid red; */
+    justify-content: center;
+    align-items: center;
+    display: flex; 
+    margin-top: 20px;
+    width: 90%;
+    margin-left: -28px;
+}
+
+.weeksDiv{
+    /* border: 1px solid red; */
+    width: 100%;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #F1F1F3;
+    background: #FFFFFF;
+    margin: 0;
+}
+
+.weeksDiv h4{
+    color: #7c7c7d;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.beginnerDiv{
+    border: 1px solid #F1F1F3;
+    width: 100%;
+    border-radius: 5px;
+    padding: 7px;
+    background: #FFFFFF;
+}
+
+.beginnerDiv h4{
+    color: #7c7c7d;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.name{
+    width: 100%;
+    height: auto;
+    padding: 7px;
+}
+
+.name h1{
+    /* border: 1px solid red; */
+    width: 100%;
+    font-size: 13px;
+    color: #262626;
+    font-weight: 400;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.courseContent{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #262626;
+    font-weight: 400;
+    margin-top: 30px;
+    /* border: 1px solid red; */
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.courseContent h1 {
+    /* border: 1px solid red; */
+    width: auto;
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    width: auto;
+}
+
+
+.courseContent p {
+    /* border: 1px solid red; */
+    font-size: 11px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin-left: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+    color: #59595A;
+    width: 90%;
+}
+
+.courseButton {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the button container */
+    align-items: center; /* Center items vertically */
+    margin: 0 auto; /* Center the button container */
+    margin-top: 20px;
+    width: 95%; /* Full width of the container */
+}
+
+.button-link {
+    flex: 1; /* Make the link take equal space */
+    border: none; /* Remove default border */
+    background: #F7F7F8; /* Background color */
+    color: #262626; /* Text color */
+    padding: 10px; /* Padding for the button */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline from link */
+    border: 1px solid #F1F1F3; /* Border styling */
+    font-weight: 600; /* Font weight */
+}
+
+.button-link:hover {
+    background-color: #eaeaea; /* Darker shade on hover */
+}
+
+.testimonialBox{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+
+.testimonial{
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial, h1{
+    font-size: 30px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin-left: 38px;
+    font-weight: 500;
+    /* line-height: 40px; */
+}
+
+.testimonial, p{
+    font-size: 11px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    /* margin-left: 38px; */
+    font-weight: 400;
+    /* line-height: 40px; */
+    color: #59595A;
+}
+
+.testimonialView{
+    margin: 10px 0 17px; /* Vertical margin */
+    height: 40px; /* Uncomment if height is needed */
+    width: 70px;
+    display: flex; /* Enable flexbox for centering */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    text-align: center; /* Center text */
+    position: relative; /* Position relative for adjustments */
+    top: -70px; /* Adjusts the vertical position */
+    right: 90px; /* Adjusts the horizontal position */
+    float: right; /* Consider removing float if using flexbox */
+    border: 1px solid #F1F1F3;
+    background: #FCFCFD;
+    
+}
+
+.testimonialView a{
+    text-decoration: none;
+    color:#262626;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font: 900;
+    font-size: 12px;
+}
+
+.testimonialView a:hover{
+    background-color: #fff;
+    color: #FF9500;
+    transition: all 0.3s ease-in-out;
+}
+
+.testimonialDisplayBox {
+    position: relative;
+    margin-top: 30px;
+    left: 5.5%;
+    width: 88%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start; /* Align items to the top */
+    justify-content: space-between; /* Ensure boxes are spaced evenly */
+}
+
+/* Styling for individual testimonial boxes */
+.testmonialBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 49%;
+    height: auto;
+    margin: 5px;
+    padding: 20px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    transition: all 0.3s ease;
+}
+
+.testmonialBox p {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 1rem; /* Adjusted line height for readability */
+    text-align: left;
+    margin-bottom: 15px; /* Reduced margin for better spacing */
+    width: 100%;
+    margin-right: 34px;
+}
+
+.testimonialBackground {
+    width: 100%;
+    height: auto;
+}
+
+.testimonialContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    gap: 10px;
+}
+
+.testimonialContent h2{
+    font-weight: 600;
+    color: #333333;  
+    font-size: 14px;    
+    font-family: 'Be Vietnam Pro', sans-serif;
+    text-align: left;
+}
+
+.testimonialContent img {
+    width: 50px; /* Adjust the size of the image */
+    height: 50px; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image fits properly */
+    margin-right: 130px; /* Add some space between the image and the text */
+}
+
+.testimonialContent h2{
+    /* border: 1px solid red; */
+    float: left;
+    position: absolute;
+    margin-right: 120px;
+}
+
+.readDiv{
+    margin: 10px 0 17px; /* Vertical margin */
+    height: 40px; /* Uncomment if height is needed */
+    width: 120px;
+    display: flex; /* Enable flexbox for centering */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    text-align: center; /* Center text */
+    position: relative; /* Position relative for adjustments */
+    float: right; /* Consider removing float if using flexbox */
+    border: 1px solid #F1F1F3;
+    background: #FCFCFD;
+    
+}
+
+.readDiv a{
+    text-decoration: none;
+    color:#262626;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font: 900;
+    font-size: 12px;
+}
+
+.readDiv a:hover{
+    color: #FF9500;
+    transition: all 0.3s ease-in-out;
+}
+
+.pricingBox{
+    width: 89%;
+    height: auto;
+    margin-top: 60px;
+}
+
+.pricing h1{
+    width: 60%;
+    font-size: 30px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 600;
+    margin: 0;
+}
+
+.pricing p{
+    font-size: 13px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin: 0;
+    line-height: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+    color: #59595A;
+    width: 70%;
+}
+
+.pricing{
+    /* border: 1px so   lid red; */
+    width: 70%;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricingView {
+    background-color: white;
+    padding: 10px;
+    display: inline-block;
+    position: relative; /* Use relative positioning for finer control */
+    top: -50px; /* Move the container up */
+    left: 78%;
+}
+
+
+.pricingView button {
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.monthly-btn {
+    background-color: #FF9500;
+    color: #fff;
+    font: 400;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    border-radius: 8px;
+}
+
+.monthly-btn:hover{
+    background-color: #fff;
+    color: #FF9500;
+    transition: all 0.3s ease-in-out;
+}
+
+.yearly-btn:hover{
+    background-color: #fff;
+    color: #FF9500;
+    transition: all 0.3s ease-in-out;
+}
+.yearly-btn {
+    background-color: white;
+    font: 400;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.pricingDisplayBox {
+    margin-top: 30px;
+    width: 87%; /* Slightly adjusted for better responsiveness */
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 8px;
+    align-items: flex-start;
+    /* justify-content: center; */
+    background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto; /* Center the container */
+}
+
+/* Styling for individual pricing boxes */
+.pricingBoxFlex {
+    text-align: center;
+    width: 48.8%;
+    height: auto;
+    margin: auto;
+    border: 1px solid #F1F1F3;
+    padding: 20px;
+    background-color: #f9f9fa;
+    border-radius: 5px;
+
+    /* Animation Properties */
+    opacity: 0; /* Initially hidden */
+    transform: scale(0.5) rotate(5deg); /* Initially scaled down and rotated */
+    transition: opacity 0.5s ease, transform 0.6s ease; /* Smooth transition */
+}
+
+.pricingBoxFlex.visible {
+    opacity: 1; /* Fully visible */
+    transform: scale(1) rotate(0deg); /* Scale to original size and rotate back */
+}
+
+
+.freePlanDiv{
+    border: 1px solid #FFEACC;
+    background-color: #FFEACC;
+    font-family: Be Vietnam Pro;
+    font: 400;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 12px;
+    line-height: 37.18px;
+    text-align: center;
+    color: #262626;
+}
+
+.freePlanDiv h3{
+    margin-top: 7px;
+}
+
+.priceAmount{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.priceAmount h5{
+    font-size: 40px;
+    font: 400;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.priceAmount span{
+    font-size: 12px;
+    font: 500;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin-top: 10px;
+    color: #333333;
+}
+
+.availableFeaturesDiv{
+    display: flex;
+    width: 100%;
+    height: auto;
+    font: 400;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.features {
+    border: 1px solid #F1F1F3;
+    display: flex;
+    width: auto;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+    padding: 10px; /* Added padding for better spacing */
+}
+
+.features h2 {
+    color: #4C4C4D;
+    font-weight: 500; /* Use font-weight for boldness */
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 12px; /* Adjusted to a more readable size */
+}
+
+.iconDiv{
+    /* border: 1px solid red; */
+    width: 20px;
+    height: 20px;
+    background: #FFF4E5;
+}
+
+.iconDiv img{
+    width: 100%;
+    color: #262626;
+}
+
+.iconDivUnactive{
+    width: 20px;
+    height: 20px;
+    background: #fff;
+}
+
+.iconDivUnactive img{
+    width: 100%;
+    color: #262626;
+}
+
+
+.priceButton{
+    width: 100%;
+    margin-top: 16px;
+    height: 40px;
+    border: none;
+    background: #FF9500;
+    color: #FFF;
+    border-radius: 0 0 8px 8px; /* top-left, top-right, bottom-right, bottom-left */
+}
+
+.priceButton:hover{
+    background-color: #fff;
+    color: #FF9500;
+    transition: all 0.3s ease-in-out;
+}
+
+.faqDisplayBox {
+    position: relative;
+    padding: 20px;
+    display: flex;
+    border-radius: 8px;
+    width: 87%;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Align items to the center */
+    background-color: #FFFFFF;
+    margin-left: auto;
+    top: 60px;
+    justify-content: center;
+    margin-right: auto; /* Center the container */
+    
+    /* Animation Properties */
+    opacity: 0; /* Initially hidden */
+    transform: translateY(-20px); /* Initially moved up */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Smooth transition */
+}
+
+.faqDisplayBox.visible {
+    opacity: 1; /* Fully visible */
+    transform: translateY(0); /* Slide down to original position */
+}
+
+
+.faqpanelQuestion {
+    border: 1px solid #F1F1F3; /* Light border for separation */
+    width: 60%; /* Width set to 46% for better layout */
+    /* margin-left: 70px; */
+    /* margin-top: 40px;     */
+}
+
+.faqContent{
+    /* border: 1px solid red; */
+    width: 70%;
+    height: auto;
+    margin-top: 20px;    
+    padding: 20px;
+}
+
+.faqtext{
+    /* border: 1px solid red; */
+    width: 70%;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 140px;
+}
+
+.faqtext h1{
+    color: #262626;
+    line-height: 38px;
+    width: 64%;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.faqtext p{
+    color: #262626;
+    /* line-height: 10px; */
+    margin-top: 5px;
+    margin-left:  -64px;
+    font-size: 10px;
+    font-weight: 400;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.faqButton{
+    border: 1px solid red;
+    width: 30%;
+    height: 30px;
+    font-size: 12px;
+    border-radius: 3px;
+    border: 1px solid #F1F1F3;
+    margin-top: 28px;
+    margin-left: -58px;
+    background: #FFFFFF;
+    color: #262626;
+}
+
+.faqButton:hover{
+    color: #FF9500;
+    background-color: #FFFFFF;
+    transition: all 0.3s ease-in-out;
+}
+
+.faqpanelQuestion h1{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.faqpanelAnswerHide p{
+    border: none;
+    margin-top: 30px;
+    font-weight: 400;
+    margin-left: 20px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.iconDivFaq {
+    border: 2px solid #FFF4E5;
+    width: 25px;
+    float: right;
+    margin-bottom: 40px;
+    margin-top: -20px; /* Adjust this value to move the element up */
+    height: 25px;
+    background: #FFF4E5;
+    margin-right: 50px;
+    border-radius: 5px;
+    
+}
+
+.iconDivFaq img{
+    width: 100%;
+    transition: all 0.3s ease; /* Smooth transition when icon changes */
+}
+
+.faqEnrollDiv{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: auto;
+}
+
+.faqEnrollcontent{
+    /* border: 1px solid blue; */
+    width: 80%;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 14px;
+    justify-content: center;
+    background: #F7F7F8;
+    border: 1px;
+}
+
+
+.enrollmentdivimage img{
+    /* border: 1px solid red    ; */
+    width: 13px;
+    margin-left: 60px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    /* border: 1px solid red; */
+    background: #FFFFFF;
+    margin-top: 120px;
+    display: flex;
+    justify-content: center; /* Center contents horizontally */
+    align-items: center; /* Center contents vertically */
+}
+
+.footerBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space items evenly */
+    width: 86.2%;
+    padding: 20px; /* Add padding for spacing */
+    opacity: 0; /* Initially hidden */
+    transform: translateY(20px); /* Initially moved down */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Smooth transition */
+}
+
+.footerBox.visible {
+    opacity: 1; /* Fully visible */
+    transform: translateY(0); /* Slide up to original position */
+}
+
+
+.logoFooter{
+    padding-top: 70px;
+    width: 25%;
+    height: 25%;
+}
+
+.logoFooterHouse{
+    /* border: 1px solid green; */
+    width: 44px;
+    height: 44px;
+    border-radius: 8px;
+    background: #FF9500;
+}
+
+.logoFooterHouse img{
+    width: 100%;
+    height: auto;
+}
+
+
+.footerLogoUnder{
+    /* border: 1px solid red; */
+    width: 100%;
+    padding: 20px 0; /* Adds padding around the content */
+    justify-content: space-between;
+}
+
+.footerLogoUnder h5 {
+   padding: 6px 0;
+   font-family: 'Be Vietnam Pro', sans-serif;
+   font-size: 12px;
+   font-weight: 400;
+}
+
+.footerLogoUnder img {
+    width: 20px; /* Keeps the image size consistent */
+    margin-right: 10px; /* Adds space between image and text */
+}
+
+/* Optional: Adjust link styles for better appearance */
+.footerLogoUnder a {
+    text-decoration: none; /* Removes underline from links */
+    color: inherit; /* Makes the link color the same as text */
+}
+
+.footerLogoUnder a:hover {
+    color: #FF9500; /* Adds a hover effect */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.pagesDiv{
+    /* border: 1px solid red; */
+    width: 80%;
+    margin-top: 20px; 
+    display: flex; /* Using flexbox to align them horizontally */
+    justify-content: space-between; /* To add space between the two divs */
+}
+
+.pagesDiv1{
+    /* border: 1px  solid red; */
+    width: 20%;
+    margin-left: 160px;
+
+}
+
+.pagesDiv1 h1{
+    color: #262626;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    width: auto;
+    margin-left: 0;
+}
+
+.homePagesDiv h5{
+    /* border: 1px solid red; */
+    width: auto;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
+
+.homePagesDiv a{
+    /* border: 1px solid red; */
+    text-decoration: none; /* Removes underline from links */
+    color: #59595A;
+}
+
+.homePagesDiv a:hover {
+    color: #FF9500; /* Adds a hover effect */
+}
+
+
+.pagesDiv2{
+    /* border: 1px solid red; */
+    width: 100%;
+    margin-right: 95px;
+}
+
+.pagesDiv2{
+    /* border: 1px solid red; */
+    width: 20%;
+}
+
+.pagesDiv2 h1{
+    color: #262626;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    width: auto;
+    margin-left: 0;
+}
+
+.homePagesDiv2 h5{
+    /* border: 1px solid red; */
+    width: 100%;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
+
+.homePagesDiv2 a{
+    text-decoration: none; /* Removes underline from links */
+    color: #59595A;
+}
+
+.homePagesDiv2 a:hover {
+    color: #FF9500; /* Adds a hover effect */
+}
+
+
+.socials{
+    /* border: 1px solid red; */
+    width: 20%;
+    margin-top: -55px;
+}
+
+.socialsDiv{
+    /* border: 1px solid red; */
+    width: 100%;
+}
+
+.socials h1{
+    color: #262626;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    width: auto;
+    margin-left: 0;
+}
+
+.socialsDiv a{
+    text-decoration: none; /* Removes underline from links */
+    color: #59595A;
+}
+
+.socialsDiv a:hover {
+    color: #FF9500; /* Adds a hover effect */
+}
+
+.socialFlex{
+    /* border: 1px solid red; */
+    display: flex;
+    /* gap: 10px; */
+    align-items: center;
+    justify-content: center;
+}
+
+.socialBox{
+    width: 40px;
+    margin-right: 21px;
+    height: 40px;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid #F1F1F3;
+    display: flex; /* Use flexbox inside the box */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Add transition for smooth hover effect */
+}
+
+.socialFlex img{
+    width: 50%; /* Make the image fill the entire width of the socialBox */
+    height: auto;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.socialBox:hover {
+    background-color: #f0f0f0; /* Change background color on hover */
+    transform: scale(1.1); /* Slightly scale up the box on hover */
+    box-shadow: 0 4px 8px rgba(255, 149, 0, 0.8); /* Add shadow effect with color #FF9500 */
+}
+
+.hamburgerDiv {
+    cursor: pointer;
+  }
+  
+  .navMenu {
+    position: fixed;
+    top: 0;
+    right: -100%; /* Initially hidden offscreen */
+    height: 20vh;
+    width: 100%;
+    background: #FF9500; /* Transparent version of #FF9500 */
+    transition: right 0.3s ease;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .cancelDiv {
+    align-self: flex-end;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .cancelDiv i{
+    width: 24px;
+    color: #ffff;
+    height: 24px;
+  }
+  
+  .navMenu ul {
+    list-style: none;
+  }
+  
+  .navMenu li:hover{
+    background-color: #ffff;
+  }
+
+  .navMenu ul li {
+    margin: 20px 0;
+    background-color: #FF9500;
+    opacity: 0; /* Initially hidden */
+    transform: translateX(-50px); /* Move left before showing */
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .navMenu ul li a {
+    color:#ffff;
+    text-decoration: none;
+    font-size: 14px;
+    
+  }
+  
+  .navMenu.show {
+    right: 0; /* Slide into view */
+  }
+  
+  .navMenu.show ul li {
+    opacity: 1; /* Make visible */
+    transform: translateX(0); /* Move to the original position */
+  }
+  
+
+/* @media (max-width: 480px 1400px) {
+    .headingCreative h3{
+        border: 1px solid red;
+        width: 300px;
+        justify-content: center;
+        text-align: center;
+        margin-left: -45px;
+        font-size: 23px;
+        font-weight: 580;
+    }
+    .headingCreative p{
+        border: 1px solid red;
+        width: 300px;
+        justify-content: center;
+        text-align: center;
+        margin-left: -45px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+} */
+/* responsiveness */
+/* For mobile screens (360px to 414px wide) */
+@media (max-width: 767px) {
+    .hamburgerDiv{
+        margin-inline-end: -77px;
+        display: block;
+    }
+    #navMenu ul{
+        display: block;
+    }
+    .top-banner {
+        width: 100%;
+        margin-left: 0;
+        height: auto; 
+    }
+    .content{
+        font-size: 12px; 
+        margin-top: 2px;
+        height: 25px;
+        margin-left: 3px;
+    }
+    .signupLogin{
+        margin-top: 25px;
+        right: 27%;
+        gap: 5px;
+    }
+    .loginButton{
+        height: 50px;
+    }
+    .signupButton{
+        font-size: 19px;
+        font-weight: 500;
+    }
+    .imgShine{
+        right: 170px;
+    }
+    .afterHeaders{
+        width: 100%;
+        
+    }
+    .creative{
+        width: 334px;
+        height: 95px;
+    }
+    .creativeSquareContent h1{
+        font-size: 15px;
+        width: 100%;
+    }
+    .afterHeaders{
+        /* margin-top: 10px; */
+    }
+    .imgShine{
+        margin-left: 20px;
+        width: 36px;
+        height: 36px;
+    }
+    .headingCreative{
+       /* border: 1px solid red; */
+       text-align: center;
+    }
+    .headingCreative h3{
+        /* border: 1px solid red; */
+        width: auto;
+        justify-content: center;
+        text-align: center;
+        /* margin-left: -45px; */
+        font-size: 23px;
+        font-weight: 580;
+    }
+    .headingCreative p{
+        /* border: 1px solid red; */
+        width: auto;
+        justify-content: center;
+        text-align: center;
+        margin-left: 0px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .buttonCreative{
+        margin-top: 30px;
+    }
+    .partnersBox{
+        margin-top: -30px;
+        width: 90%;
+    }
+    .youtube-video{
+        width: 100%;
+        height: 100%;
+        margin-top: -30px;
+    }
+    .benefit{
+        margin-top: -30px;
+    }
+    .benefit{
+       /* border: 1px solid red; */
+       width: 85%;
+       margin-top: 10px;
+       padding: 0;
+       margin-left: -22px;
+       
+    }
+    .benefit h1{
+        /* border: 1px solid red; */
+        width: 100%;
+        margin: 0;
+        font-size: 30px;
+        font-weight: 500px;
+        padding-bottom: 10px;
+     }
+     .benefit p{
+        /* border: 1px solid red; */
+        width: 100%;
+        margin: 0;
+        font-size: 12px;
+        font-weight: 400px;
+     }
+     .view{
+        margin: 0;
+        margin-top: 20px;
+        /* margin-right: 249px; */
+     }
+     .benefitFlexBox{
+        width: 100%;
+        height: auto;
+     }
+     .flexBox{
+        width: 100%;
+        margin-left: 10px;
+     }
+     .benefitContent{
+        /* border: 1px solid red; */
+        width: 100%;
+     }
+     .courses-view{
+        margin: 0;
+        margin-top: 20px;
+        /* margin-right: 249px; */
+     }
+     .courses p{
+        /* border: 1px solid red; */
+        width: 100%;
+     }
+     .coursesFlex{
+        /* border: 1px solid red; */
+        width: 100%;
+     }
+     .beginnerweeksDiv{
+        /* border: 1px solid red; */
+        margin-left: 5px;
+        width: 90%;
+     }
+     .weeksDiv{
+        /* border: 1px solid red; */
+        width: 100%;
+     }
+     .beginnerDiv{
+        /* border: 1px solid red; */
+        width: 100%;
+     }
+     .name h1{
+       margin-left: 7px;
+       font-size: 10px;
+       width: auto;
+     }
+     .pricingBox{
+       /* border: 1px solid red; */
+     }
+     .pricing{
+        /* border: 1px solid red; */
+        width: 93%;
+        margin-left: 14px;
+      }
+      .pricing h1{
+        /* border: 1px solid red; */
+        width: auto;
+        margin: 0;
+      }
+      .pricing p{
+        /* border: 1px solid red; */
+        width: auto;
+        margin: 0;
+      }
+      .pricingView{
+        /* border: 1px solid red; */
+        margin-top: 100px;
+        margin-left: -213px;
+      }
+      .pricingDisplayBox{
+        margin-top: 10px;
+        width: 90%;
+      }
+      .pricingBoxFlex{
+        width: 100%;
+      }
+      .faqDisplayBox{
+        /* margin-top: 0px; */
+        width: 90%;
+      }
+      .faqContent{
+        width: 100%;
+        /* border: 1px solid red; */
+      }
+      .faqtext{
+        width: 100%;
+        margin: 0;
+        /* border: 1px solid red; */
+      }
+      .faqtext h1{
+        margin-top: -80px;
+        width: 100%;
+        margin: 0;
+        /* border: 1px solid red; */
+      }
+      .faqtext p{
+        width: 100%;
+        margin: 0;
+        /* border: 1px solid red; */
+      }
+      .faqButton{
+        margin-top: 30px;
+        width: auto;
+        margin: 0;
+        margin-top: 20px;
+        /* border: 1px solid red; */
+      }
+      .faqpanelQuestion{
+        width: 100%;
+      }
+      .footer {
+        width: 100%;
+        /* border: 1px solid red; */
+        flex-direction: column; /* Stack items vertically */
+    }
+
+    .footerBox {
+        width: 100%;
+        flex-direction: column; /* Stack logo and pagesDiv vertically */
+    }
+
+    .logoFooter{
+        /* border: 1px solid red; */
+        width: 91%;
+    }
+
+    .pagesDiv {
+        /* border: 1px solid red; */
+        margin-top: 20px;
+        width: 91%;
+    }
+
+    .pagesDiv1 {
+        /* border: 1px solid red; */
+        width: 100%; /* Full width on smaller screens */
+        margin: 10px 0; /* Add spacing between sections */
+    }
+
+    .pagesDiv2 {
+        /* border: 1px solid red; */
+        width: 100%; /* Full width on smaller screens */
+        margin: 10px ; /* Add spacing between sections */
+    }
+
+    .socials{
+        /* border: 1px solid red; */
+        margin: 10px 0; /* Add spacing between sections */
+        width: 100%; 
+        top: 40px;
+    }
+    .socials h1{
+        width: 91%; 
+        margin-left: 12px;
+        font-size: 16px;
+    }
+    .socialFlex{
+        /* border: 1px solid red; */
+        width: 60%;
+    }
+    .iconDivFaq{
+        margin-top: 10px;
+    }
+    .headerPages ul{
+        display: none;
+    }
+    .logo-layout{
+        margin-left: 20px;
+        margin-top: 7px;
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+    .flexBox {
+        width: 47% ;          
+        /* margin-bottom: 20px; */
+    }
+
+    .benefitFlexBox {
+        justify-content: space-between; /* Adjusts flex alignment */
+    }
+}
+
+@media (max-width: 500px) {
+    .flexBox {
+        width: 94%;          /* 1 box per row for mobile */
+    }
+    .benefitFlexBox {
+        flex-direction: column; /* Stacks flex items vertically */
+        gap: 10px;
+    }
+
+    .benefitContent h2 {
+        font-size: 18px;       /* Smaller font size for mobile */
+    }
+
+    .roundSpan {
+        font-size: 30px;       /* Adjust font size for mobile */
+    }
+    .headerPages ul{
+        /* display: block; */
+    }
+    .creativeSquareImg{
+        width: 46px;
+        height: 46px;
+    }
+    .preloader h1{
+        margin-right: 27px;
+        /* border: 1px solid red; */
+    }
+}
+

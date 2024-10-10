@@ -1,0 +1,1117 @@
+.cousesDivPageHeader{
+    /* border: 1px solid red; */
+    align-items: center;
+    margin-top: 70px;
+    width: 97%;
+}
+
+.cousesDivPageHeaderH1{
+    /* border: 1px solid red; */
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    display: flex;
+}
+
+.cousesDivPageHeaderH1 h1{
+    width: 83%;
+    /* border: 1px solid red; */
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size:30px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: left;
+    color: #262626;
+    margin: 0;
+}
+
+.cousesDivPageHeaderP{
+    /* border: 1px solid red;  */
+    align-items: center;
+    justify-content: center;
+    width: 64%;
+    display: flex;
+    margin-left: 86px;
+}
+
+.cousesDivPageHeaderP p{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #262626;
+}
+
+.lineheight{
+    /* border: 1px solid red; */
+    position: relative;
+    margin-top: 30px;
+    width: 97%;
+    border-bottom: 1px solid #E4E4E7;
+    color: #E4E4E7;
+}
+
+.coursesBoxPage{
+    /* border: 1px solid red; */
+    margin-top: 100px;
+    align-items: center;
+    /* justify-content: center; */
+    margin-top: 50px;
+    background: #FFFFFF;
+    width: 86%;
+    /* display: flex; */
+    border-radius: 5px;
+    padding-bottom: 30px;
+}
+
+.courseBoxPageFlex{
+    border: 1px solid #F1F1F3;
+    width: 93%;
+    background: #FFFFFF;
+    align-items: center;
+    /* display: flex; */
+    margin-left: 33px;
+    margin-top: 30px;
+    justify-content: center;
+    border-radius: 5px;
+    padding-bottom: 30px;
+}
+
+.courseBoxPageFlexFirstContent{
+    /* border: 1px solid red; */
+    width: 100%;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.courseBoxPageFlexFirstContent h1{
+    width: 83%;
+    /* border: 1px solid red; */
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size:21px;
+    margin: 0;
+    font-weight: 600;
+    /* line-height: 40px; */
+    text-align: left;
+    color: #262626;
+}
+
+.courseBoxPageFlexFirstContent p{
+    width: auto;
+    /* border: 1px solid red; */
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 17px;
+    width: 70%;
+    text-align: left;
+    color: #262626;
+}
+
+.courseBoxPageFlexFirstContentView{
+    /* border: 1px solid red; */
+    width: 100px;
+    height: auto;
+    padding: 9px;
+    background: #FCFCFD;
+    border: 1px solid #F1F1F3;
+    float: right;
+    justify-content: center;
+    align-items: center;
+    margin-right: 42px;
+    text-align: center;
+    margin-top: -55px;
+}
+
+.courseBoxPageFlexFirstContentView a{
+    text-decoration: none;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    /* line-height: 25px; */
+    text-align: center;
+    color: #262626;
+}
+
+.courseBoxPageFlexFirstContentView a:hover{
+    color: #FF9500;
+    transition: all 0.3s ease;
+}
+
+.courseBoxPageFlexFirstContentImagesBox{
+    /* border: 1px solid red; */
+    width: 93%;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.courseBoxPageFlexFirstContentImagesBoxFlexContent {
+    width: 31%;
+    height: 240px;
+    display: inline-block;
+    margin: 4.1px;
+    overflow: hidden; /* Hide overflow to prevent zoomed parts from showing */
+    position: relative; /* Establishes a positioning context */
+}
+
+.courseBoxPageFlexFirstContentImagesBoxFlexContent img {
+    width: 100%;
+    height: auto; /* Keep aspect ratio */
+    transition: transform 0.3s ease; /* Smooth transition for the zoom effect */
+}
+
+.courseBoxPageFlexFirstContentImagesBoxFlexContent img:hover {
+    transform: scale(1.1); /* Zooms the image to 110% of its original size */
+}
+
+
+.courseBoxPageFlexFirstContentImagesBoxUnder{
+    /* border: 1px solid red; */
+    margin-top: 16px;
+    display: flex;
+    width: 93%;
+    margin-left: 30px;
+}
+
+.courseBoxPageFlexFirstContentImagesBoxUnderBoxes{
+    /* border: 1px solid red; */
+    display: flex;
+    width: 81%;
+    text-align: center;
+    /* border: 1px solid #F1F1F3 */
+}
+
+.courseBoxPageFlexFirstContentImagesBoxUnderWeeks{
+    /* border: 1px solid red; */
+    width: 20%;
+    padding: 15px;
+    border: 1px solid #F1F1F3
+}
+
+.courseBoxPageFlexFirstContentImagesBoxUnderBeginner{
+    /* border: 1px solid red; */
+    width: 20%;
+    padding: 15px;
+    border: 1px solid #F1F1F3
+}
+
+.courseBoxPageFlexFirstContentImagesBoxUnderName{
+    /* border: 1px solid red; */
+    padding: 8px;
+}
+
+.courseBoxPageFlexFirstContentImagesBoxUnderBoxes p{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.courseBoxPageFlexFirstContentImagesBoxUnderName h5{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.courseBoxPageFlexSecondContentBoxUnder{
+    border: 1px solid #F1F1F3;
+    margin-top: 50px;
+    width: 93%;
+    margin-left: 30px;
+    padding-bottom: 10px;
+}
+
+.courseBoxPageFlexSecondContentBoxUnderh1 h1{
+    /* border: 1px solid red; */
+    margin: 10px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.courseBoxPageFlexSecondContentBoxUnderFlex{
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    width: 93%;
+    margin-left: 30px;
+    display: flex;
+}
+
+.courseBoxPageFlexSecondContentBoxUnderFlexBox{
+    border: 1px solid #F1F1F3;
+    width: 30%;
+    height: 100px;
+}
+
+.courseBoxPageFlexSecondContentBoxUnderFlex .courseBoxPageFlexSecondContentBoxUnderFlexBox2content{
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.courseBoxPageFlexSecondContentBoxUnderFlexBox1Content{
+    margin-left: 7px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.courseOpenPageImage{
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    width: 87%;
+    height: 600px;
+}
+
+.courseOpenPageImage img{
+    width: 100%;
+    height: 100%;
+}
+
+.courseOpenPageFlexBox{
+    margin-top: 60px;
+    width: 87%;
+    align-items: center;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+}
+
+.courseOpenPageFlex{
+    border: 1px solid #F1F1F3;
+    width: 49.7%;
+    height: auto;
+    background: #FFFFFF;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.courseOpenPageFlexSpanBox{
+    /* border: 1px solid green; */
+    width: auto;
+    float: right;
+    padding: 10px;
+}
+
+.courseOpenPageFlexSpanBox span{
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.courseOpenPageFlexH1Box{
+    /* border: 1px solid green; */
+    width: auto;
+    margin-top: 75px;
+    
+}
+
+.courseOpenPageFlexH1Box h1{
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 15px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.courseOpenPageFlexUnder{
+    border: 1px solid #F1F1F3;
+    margin-top: 30px;
+    width: 80%;
+    margin-left: 70px;
+    display: flex;
+    /* justify-content: center; */
+}
+
+.courseOpenPageFlexH1BoxContent{
+    /* border: 1px solid red; */
+    width: auto;
+    /* height: 200px; */
+    /* margin-left: 15px; */
+}
+
+.courseOpenPageFlexH1BoxContentDuplicate{
+    border: 1px solid #F1F1F3;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+}
+
+.courseOpenPageFlexH1BoxContentDuplicateDiv{
+    /* border: 1px solid blue; */
+    width: auto;
+    padding: 10px;
+}
+
+.courseOpenPageFlexH1BoxContentDuplicateDiv h1{
+    /* border: 1px solid blue; */
+    width: auto;
+    margin: 0;
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 15px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    padding-bottom: 5px;
+}
+
+.courseOpenPageFlexH1BoxContentDuplicateDiv p{
+    /* border: 1px solid blue; */
+    width: auto;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 15px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.courseOpenPageFlexH1BoxContentMinutes{
+    /* border: 1px solid green; */
+    width: auto;
+    margin-left: 60px;
+    padding: 10px;
+    background: #F7F7F8;
+    border-radius: 2px;
+}
+
+.courseOpenPageFlexH1BoxContentMinutes img{
+    /* border: 1px solid red; */
+    width: 17%;
+}
+
+.courseOpenPageFlexH1BoxContentMinutes p{
+    /* border: 1px solid red; */
+    width: auto;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 31px;
+    margin-top:  -18px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.courseOpenPageFlexH1BoxContentDuplicate .active{
+    border: 1px solid #FFD599;
+    box-shadow: 0px 0px 0px 4px #FFF4E5;
+}
+
+.aboutFirstContent{
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    width: 86%;
+    /* padding-top: 10px; */
+}
+
+.aboutFirstContentBox{
+    /* border: 1px solid red; */
+    padding-bottom: 30px;
+    width: auto;
+}
+
+.aboutFirstContentBox h1{
+    margin: 0;
+    width: auto;
+    font-size: 23px;
+    font-weight: 500;
+    /* margin-left: 15px; */
+    font-family: 'Be Vietnam Pro', sans-serif;
+    padding-bottom: 10px;
+}
+
+.aboutFirstContentBox p{
+    /* border: 1px solid red; */
+    width: auto;
+    margin: 0;
+    font-size: 12px;
+    font-weight: 400;
+    /* margin-left: 14px; */
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.displayaflexBoxAbout{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+}
+
+.displayaflexBoxAboutContent{
+    /* border: 1px solid red; */
+    width: 48%;
+    height: auto;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.displayaflexBoxAboutContentImage{
+    /* border: 1px solid red; */
+    width: 40px;
+    border-radius: 8px;
+    height: 40px;
+    margin-left: 30px;
+}
+
+.displayaflexBoxAboutContentImage img{
+    width: 100%;
+    height: 100%;
+}
+
+.displayaflexBoxAboutContentH1P{
+    /* border: 1px solid red; */
+    width: auto;
+    margin-left: -20px;
+}
+
+.displayaflexBoxAboutContentH1P h1{
+    /* border: 1px solid red; */
+    margin: 0;
+    width: auto;
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 48px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    padding-bottom: 4px;
+    padding-top: 20px;
+}
+
+.displayaflexBoxAboutContentH1P p{
+    /* border: 1px solid red; */
+    margin: 0;
+    width: 80%;
+    font-size: 10px;
+    line-height: 17px;
+    font-weight: 400;
+    margin-left: 48px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    padding-bottom: 4px;
+}
+
+.aboutSecondContent{
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    width: 86%;
+    padding-top: 40px;
+}
+
+.aboutSecondContentUnder{
+    /* border: 1px solid red;   */
+    margin-top: 40px;
+    background: #FFFFFF;
+    width: 97%;
+    border-radius: 8px;
+}
+
+.aboutSecondContentUnderContent{
+    /* border: 1px solid red; */
+    width: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.aboutSecondContentUnderContent h1{
+    font-size: 28px;
+    width: 60%;
+    /* border: 1px solid red; */
+    font-weight: 600;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.aboutSecondContentUnderContent span{
+    color: #FF9500;
+}
+
+.aboutSecondContentUnderContent p{
+    font-size: 11px;
+    font-weight: 400;
+    /* border: 1px solid red; */
+    width: 50%;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin-left: 37px;
+}
+
+.aboutLInk{
+    /* border: 1px solid red; */
+    width: 100px;
+    float: right;
+    margin-top: -40px;
+    padding: 11px;
+    position: relative;
+    text-align: center;
+    margin-right: 90px;
+    background: #FFFF;
+    border-radius: 5px;
+    border: 1px solid #FF9500;
+}
+
+.aboutLInk a{
+    text-decoration: none;
+    color: #FF9500;
+}
+
+.pricingBoxPricingPage{
+    margin-top: 70px;
+    margin-right: 230px;
+}
+
+.contactBox{
+    /* border: 1px solid red; */
+    margin-top: 60px;
+    width: 86%;
+    /* height: 600px; */
+    border-radius: 5px;
+    background: #FFFFFF;
+    
+}
+
+.contactDisplayBox{
+    /* border: 1px solid rgb(233, 233, 234); */
+    width: 60%;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.contactDisplayFlex{
+    /* border: 1px solid red; */
+    margin-top: 40px;
+    width: 81%;
+    margin-left: 60px;
+    height: auto;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 10px;
+}
+
+.contactFlex{
+    /* border: 1px solid green; */
+    width: 48%;
+    /* height: 50px; */
+}
+
+.contactInputDiv{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.contactInputDiv input{
+    width: 100%;
+    height: 100%;
+    background: #FCFCFD;
+    border-radius: 5px;
+    border: 1px solid #FF9500;
+}
+
+.Subject{
+    width: 98%;
+}
+
+.message{
+    width: 98%;
+}
+
+.messageDrop {
+    height: 120px;
+}
+
+.contactFlex label{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: #262626;
+}
+
+.contactButton{
+    /* border: 1px solid red; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* margin-left: 150px; */
+    height: 38px;
+    width: 40%;
+    margin-top: 20px;
+}
+
+.contactButton button{
+    width: 100%;
+    height: 100%;
+    background-color: #FF9500;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;   
+    border: 1px solid #FF9500;
+}
+
+.contactButton button:hover{
+     background: #FFFFFF;
+     color: #FF9500;
+     transition: all 0.3s ease;
+}
+
+.contactSideBar{
+    border: 1px solid rgb(248, 247, 247);
+    float: right;
+    width: 40%;
+    height: 524px;
+    /* gap: 20px; */
+}
+
+.contactSideBarContent{
+    border: 1px solid #F1F1F3;
+    width: 70%;
+    margin-top: 40px;
+    margin-left: 55px;
+    border-radius: 5px;
+    background: #FCFCFD;
+    height: 80px;
+    display: inline-block;
+}
+
+.contactSideBarContentImageDiv{
+    /* border: 1px solid red; */
+    width: 14%;
+    height: 40px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.contactSideBarContentImageDiv img{
+     width: 100%;
+     height: 100%;
+}
+
+.contactSideBar p{
+    margin-top: 5px;
+    justify-content: center;
+    text-align: center;
+}
+
+.loginBox{
+    /* border: 1px solid red; */
+    margin-top: 70px;
+    width: 86%;
+    /* margin-left: 20px; */
+}
+
+.loginSidebar{
+    /* border: 1px solid red; */
+    float: right;
+    width: 45%;
+    /* height: 500px; */
+    padding-bottom: 15px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.loginTestimonial{
+    /* border: 1px solid green; */
+    margin-top: 60px;
+    width: 45%;
+}
+
+.loginTestimonialContent{
+    /* border: 1px solid red; */
+    width: auto;
+    padding-bottom: 20px;
+}
+
+.loginTestimonialContent h1{
+    /* border: 1px solid red; */
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 500;
+    width:auto;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.loginTestimonialContent p{
+    /* border: 1px solid red; */
+    width: 80%;
+    margin-left: 38px;
+    font-size: 11px;
+    font-weight: 400;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.logintestimonialDisplayBox{
+    /* border: 1px solid red; */
+    margin-left: 39px;
+    background: #FFFFFF;
+    /* height: 100px; */
+    padding-top: 20px;
+    border-radius: 5px;
+    width: auto;
+}
+
+.logintestimonialDisplayBox p{
+    width: 90%;
+    margin-left: 25px;
+    /* border: 1px solid red; */
+    font-size: 11px;
+    font-weight: 400;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.logintestimonialDisplayBoxUnder{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    background: #FCFCFD;
+}
+
+.loginImageBox{
+    /* border: 1px solid red; */
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+.loginImageBox img{
+    width: 100%;
+    height: 100%;
+}
+
+.loginLinkBox{
+    border: 1px solid #F1F1F3;
+    justify-content: center;
+    float: right;
+    margin-top: 7px;
+    margin-right: 20px;
+    padding: 5px;
+    background: #F7F7F8;
+}
+
+.loginLinkBox a{
+    color: #262626;
+    font-size: 11px;
+    font-weight: 400;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    text-decoration: none;
+}
+
+.logintestimonialDisplayBoxUnder p{
+    /* border: 1px solid red; */
+    width: 10%;
+    margin-left: 70px;
+    font-size: 11px;
+    margin-top: -25px;
+    font-weight: 400;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    text-decoration: none;
+}
+
+.buttonSwipe{
+    /* border: 1px solid red; */
+    float: right;
+    margin-top: 10px;
+    width: 20%;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    gap: 8px;
+   
+}
+
+.buttonSwipe1{
+    border: 1px solid #F1F1F3;
+    width: 45px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.buttonSwipe1 button{
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.buttonSwipe1 button img{
+    width: 40%;
+    height: 40%;
+    margin-top: 5px;
+    color: #262626;
+
+}
+
+.loginSidebarH1Ptag{
+    text-align: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.loginSidebarH1Ptag h1{
+    /* border: 1px solid red; */
+    width: 80%;
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 600;
+    padding: 3px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.loginSidebarH1Ptag p{
+    font-size: 11px;
+    font-weight: 400;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.loginForm{
+    /* border: 1px solid red; */
+    width: 70%;
+    margin-left: 63px;
+}
+
+.loginFormInput{
+    margin-bottom: 20px;
+    /* border: 1px solid red; */
+    height: 38px;
+    border: 1px solid #FF9500;
+    border-radius: 4px;
+}
+
+.loginFormInput input{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #FF9500;
+    border-radius: 4px;
+}
+
+.loginforgotPassword{
+    /* border: 1px solid red; */
+    float: inline-end;
+    margin-top: -5px;
+}
+
+.loginforgotPassword p{
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.loginforgotPasswordRadio{
+    /* border: 1px solid red; */
+    width: auto;
+    margin-top: 40px;
+    display: flex;  
+}
+
+.loginforgotPasswordRadio p{
+    margin-inline-start: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.loginforgotPasswordButton{
+    /* border: 1px solid red; */
+    margin-block-start: 15px;
+    border-radius: 5px;
+    border: 1px solid #F1F1F3;
+}
+
+.loginforgotPasswordButton button{
+    width: 100%;
+    height: 100%;
+    padding: 8px;
+    border: none;
+    background: #FF9500;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.loginforgotPasswordButton button:hover{
+    background: #FFFFFF;
+    color: #FF9500;
+    transition: all 0.3s ease;
+}
+
+.loginLineBox{
+    /* border: 1px solid red; */
+    text-align: center;
+    margin-block-start: 10px;
+}
+
+.loginLineBox p{
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.googleLogin{
+    border: 1px solid #F1F1F3;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: #F7F7F8;
+    border-radius: 8px;
+    margin-block-start: 10px;
+    gap: 10px;
+}
+
+.googleLogin img{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+}
+
+.loginLineBoxDiv{
+    /* border: 1px solid red; */
+    width: 25px;
+    height: 25px;
+}
+
+.LoginSignupLink{
+    /* border: 1px solid red; */
+    margin-block-start: 20px;
+    text-align: center;
+}
+
+.LoginSignupLink a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: #262626;
+}
+
+.logintestimonialDisplayBox {
+    display: none; /* Hide all testimonials by default */
+    opacity: 0; /* Set initial opacity to 0 for fading effect */
+    transition: opacity 0.5s ease; /* Smooth transition for opacity */
+}
+
+.logintestimonialDisplayBox.active {
+    display: block; /* Show the active testimonial */
+    opacity: 1; /* Set opacity to 1 for visible testimonial */
+}
+
+
+input:focus {
+    border-color: #FF9500; /* Change border color on focus */
+    outline: none; /* Remove outline */
+}
+
+input {
+    padding: 10px 40px 10px 10px; /* Add right padding */
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+@media (max-width: 767px) {
+    .loginSidebar{
+        width: 100%;
+    }
+    .loginForm{
+        margin-left: 54px;
+    }
+    .cousesDivPageHeaderP{
+        margin-left: 33px;
+        width: 83%;
+    }
+    .loginTestimonial{
+        /* border: 1px solid red; */
+        margin-top: 154%;
+        width: 100%;
+    }
+    .logintestimonialDisplayBox{
+        margin-left: 0px;
+    }
+    .courseBoxPageFlex{
+        /* border: 1px solid red; */
+        width: 80%;
+    }
+    .courseBoxPageFlexFirstContentView{
+        /* border: 1px solid red; */
+        margin-right: 136px;
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+    .courseBoxPageFlexFirstContentImagesBox{
+        width: auto;
+        margin-left: 0px;
+        /* padding-bottom: 40px; */
+    }
+    .courseBoxPageFlexFirstContentImagesBoxFlexContent{
+        width: auto;
+    }
+    .courseBoxPageFlexFirstContentImagesBoxUnder{
+        margin-left: 0;
+    }
+    .courseBoxPageFlexFirstContentImagesBoxUnderBoxes{
+        width: 100%;
+        border: 1px solid #F1F1F3;
+    }
+    .courseBoxPageFlexFirstContentImagesBoxUnderWeeks{
+        width: auto;
+    }
+    .courseBoxPageFlexFirstContentImagesBoxUnderBeginner{
+        width: auto;
+    }
+    .courseBoxPageFlexSecondContentBoxUnder{
+        margin-left: 0;
+    }
+    .courseBoxPageFlexSecondContentBoxUnderFlex{
+        flex-wrap: wrap;
+    }
+    .courseBoxPageFlexSecondContentBoxUnderFlexBox{
+        width: 94%;
+    }
+    .displayaflexBoxAboutContent{
+        width: auto;
+    }
+    .aboutLInk{
+        margin-right: 8px;
+    }
+    .displayaflexBoxAboutContentH1P h1{
+        width: 80%;
+    }
+    .pricingBoxPricingPage{
+        margin-right: -217px;
+    }
+    .contactDisplayBox {
+        width: auto;
+    }
+    .contactDisplayFlex{
+        margin-left: 3px;
+    }
+    .contactSideBar{
+        width: auto;
+    }
+    .contactButton{
+        width: auto;
+    }
+    .contactDisplayFlex{
+        width: auto;
+    }
+    .courseOpenPageImage{
+        height: auto;
+        width: 90%;
+    }
+    .courseOpenPageFlex{
+        width: auto;
+    }
+    .buttonSwipe{
+        width: 100%;
+    }
+    .logintestimonialDisplayBoxUnder p{
+        width: auto;
+    }
+}

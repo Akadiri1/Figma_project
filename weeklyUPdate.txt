@@ -1,0 +1,42 @@
+Weekly Report
+Project Names: Frontend Figma Project, Lammie Project
+Developer Name: Akadiri Okikiola Emmanuel
+
+Tasks Completed:
+
+Summary of Daily Tasks in Alignment with Daily Goals
+Date: September 25, 2024
+Worked on Lammie ADMC, implementing functionality to allow clients to dynamically update content based on their preferences.
+
+Date: September 28, 2024
+Made enhancements to the Checkout Page, adding new features aimed at improving usability and ensuring a user-friendly experience.
+
+the website is an educational website
+
+Date: October 04, 2024
+Completed the frontend development for the following sections of the Figma Project:
+Home Page
+FAQ Section
+Pricing Section
+Footer Section
+Ensured all sections are fully responsive across devices, improving the overall accessibility and design consistency.
+
+Date: October 05, 2024
+Worked on the Mobile Navbar for the Figma project. While I made significant progress, the task remains incomplete and will require further attention.
+
+Date: October 06, 2024
+Completed the frontend development for the following sections:
+Course Page: Implemented a responsive and user-friendly design.
+Course Details Page: Developed a structured layout to display detailed course information.
+About Page: Created a visually appealing page to effectively communicate the brand's mission and values.
+Contact Us Page: Integrated a fully functional contact form with a seamless user interface.
+These tasks represent substantial progress in the frontend development of both projects, enhancing the visual appeal, functionality, and overall user experience of the site. By ensuring key pages are both responsive and interactive, the project is now positioned to deliver a seamless experience across various devices.
+The recent completion of crucial sections like the Course Page, About Page, and Contact Us Page has provided a strong foundation for the project's frontend. Moving forward, the focus will shift toward refining the responsiveness of all elements and ensuring that both desktop and mobile users have an optimized experience.
+Additionally, upcoming tasks will include finalizing the development of the Login and Signup pages. This will ensure users can easily access and manage their accounts. Once these elements are in place, the site will be ready for thorough testing and final adjustments before launch. 
+Thank you.
+
+Challenges:
+The Mobile Navbar development faced some complexities that resulted in an incomplete task. These issues will require additional effort and debugging in the coming week to ensure a smooth and responsive navigation experience across all devices.
+
+Additionally, I encountered network challenges, specifically a lack of reliable data access. This limitation has significantly impacted my ability to reference online resources, access design guidelines, or collaborate in real-time. As a result, I have had to rely heavily on my knowledge, experience, and memory to continue progressing with the frontend development.
+Despite the absence of external resources and tools, I have been able to push forward by focusing on key sections of the project and ensuring that the designs meet the required standards. Although this has slowed down the workflow, I have maintained momentum and achieved substantial progress. Once network access is restored, I plan to revisit and fine-tune certain areas to ensure everything aligns perfectly with the original design specifications.
